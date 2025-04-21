@@ -5,6 +5,8 @@ st.title('🤖 Machine Learning App')
 
 st.info('This is a app that builds a machine learning model!')
 
-df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/penguins_cleaned.csv')
-df
+with st.expander('data'):
+  st.write('**Raw Data**')
+  df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/penguins_cleaned.csv')
+  df
 
