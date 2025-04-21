@@ -39,7 +39,7 @@ with st.sidebar:
           'body_mass_g': body_mass_g,
           'gender': gender
           }
-  input_df = pd.DataFrame(data , index[0])
+  input_df = pd.DataFrame(data , index=[0])
   input_penguines = pd.concat([input_df, X], axis=0)
 
 input_df
