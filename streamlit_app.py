@@ -32,7 +32,7 @@ with st.sidebar:
   gender = st.selectbox('Gender',('Male','Female'))
 
 # Create a Dataframe for the input Features.
-  data = {'island',island,
+  data = {'island' : island,
           'bill_lenght_mm': bill_lenght_mm,
           'bill_depth_mm' : bill_depth_mm,
           'flipper_length_mm': flipper_length_mm,
