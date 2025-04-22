@@ -7,7 +7,10 @@ This is a fun machine learning project built using **Streamlit** to predict the 
 
 ## 🚀 Demo App
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://share.streamlit.io/your-app-link](https://sp-machinelearning.streamlit.app/#c6b76bd7))
+Experience the live version of this machine learning app built using Streamlit:
+
+👉 [🪄 Open in Streamlit](https://sp-machinelearning.streamlit.app/#c6b76bd7)
+
 
 
 ## ⚙️ How It Works
