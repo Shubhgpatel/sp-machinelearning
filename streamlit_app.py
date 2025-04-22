@@ -74,6 +74,7 @@ with st.expander('Data perparation'):
   y
 
 # Model Training and inference
+# train the ML model
 clf = RandomForestClassifier()
 clf.fit(X, y)
 
