@@ -102,7 +102,6 @@ st.dataframe(df_prediction_proba,
                 min_value = 0,
                 max_value = 1
               ),
-              column_config={
               'Chinstrap': st.column_config.ProgressColumn(
                 'Chinstrap',
                 format = %f,
@@ -110,7 +109,6 @@ st.dataframe(df_prediction_proba,
                 min_value = 0,
                 max_value = 1
               ),
-              column_config={
               'Gentoo': st.column_config.ProgressColumn(
                 'Gentoo',
                 format = %f,
