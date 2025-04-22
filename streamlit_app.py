@@ -44,10 +44,10 @@ with st.sidebar:
 
 
 with st.expander('Input Features'):
-st.write('**Input Penguin**')
-input_df
-st.write('**Combined penguins data**')
-input_penguins  
+  st.write('**Input Penguin**')
+  input_df
+  st.write('**Combined penguins data**')
+  input_penguins  
 
 
   
